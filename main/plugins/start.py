@@ -30,7 +30,7 @@ import subprocess
 # OWNER_ID = 7065117445 # edit this
 # LOG_GROUP = -1001878947221 # edit this
 
-MDB = "mongodb+srv://ludlux:ludlux@cluster0.dte8fqy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MDB = "mongodb+srv://Cluster0:ludlux@cluster0.svi0suh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 MONGODB_CONNECTION_STRING = config("MONGODB", default=MDB)
 # MongoDB database name and collection name
 DB_NAME = "start_users"
