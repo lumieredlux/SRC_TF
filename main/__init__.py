@@ -18,7 +18,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 logging.getLogger("telethon").setLevel(logging.WARNING)
 
 uvloop.install()
-MDB = "mongodb+srv://ludlux:ludlux@cluster0.dte8fqy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MDB = "mongodb+srv://Cluster0:ludlux@cluster0.svi0suh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 API_ID = "25018366" #config("API_ID", default=None, cast=int)
 API_HASH = "03194f91ff9af028447f66c0d62e7e77" #config("API_HASH", default=None)
 BOT_TOKEN = "7471620307:AAHhWGZd8tcvg1M2_A5kJxWSGVEKz_QHuuw" #config("BOT_TOKEN", default=None)
